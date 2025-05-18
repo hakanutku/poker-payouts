@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Payouts - Support</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --light-bg: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .hero {
+            padding: 4rem 0;
+            background-color: var(--light-bg);
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .features {
+            padding: 4rem 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .screenshots {
+            padding: 4rem 0;
+            background-color: var(--light-bg);
+        }
+
+        .screenshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .screenshot {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .faq {
+            padding: 4rem 0;
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact {
+            padding: 4rem 0;
+            background-color: var(--light-bg);
+            text-align: center;
+        }
+
+        .contact a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Poker Payouts</h1>
+            <p>Your Ultimate Poker Tournament Payout Calculator</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Poker Payouts Support</h1>
+            <p>Get help with your poker tournament payout calculations and learn how to make the most of our app.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Quick Calculations</h3>
+                    <p>Calculate tournament payouts instantly with our intuitive interface.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Customizable Payouts</h3>
+                    <p>Adjust payout structures to match your tournament's needs.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Save & Share</h3>
+                    <p>Save your calculations and share them with tournament participants.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="screenshots">
+        <div class="container">
+            <h2>App Screenshots</h2>
+            <div class="screenshot-grid">
+                <!-- Add your screenshots here -->
+                <div class="screenshot">
+                    <img src="screenshots/screenshot1.png" alt="Poker Payouts Main Screen">
+                </div>
+                <div class="screenshot">
+                    <img src="screenshots/screenshot2.png" alt="Poker Payouts Calculation Screen">
+                </div>
+                <div class="screenshot">
+                    <img src="screenshots/screenshot3.png" alt="Poker Payouts Results Screen">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">How do I calculate payouts for my tournament?</div>
+                <p>Simply enter the total prize pool and number of players, then select your desired payout structure.
+                    The app will automatically calculate the payouts for each position.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I customize the payout structure?</div>
+                <p>Yes! You can create custom payout structures or choose from our pre-defined templates to match your
+                    tournament's needs.</p>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I share the results?</div>
+                <p>After calculating the payouts, you can share the results directly from the app via email, text
+                    message, or social media.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Need Help?</h2>
+            <p>If you have any questions or need assistance, please contact us at:</p>
+            <p><a href="mailto:support@pokerpayouts.app">support@pokerpayouts.app</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Poker Payouts. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
